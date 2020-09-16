@@ -1,5 +1,6 @@
 # SPC
 Use python to draw control charts
+
 Base on Matt Harrison's Python SPC (https://github.com/mattharrison/python-spc) to fix some bugs and also update some line from Python2 to Python3.
 
 Fixed bugs:
@@ -12,4 +13,4 @@ but can download the "SPC.py" to your computer, also add two lines in your code 
 
 import sys
 
-sys.path.append('/Python/SPC')  # instead "/Python/SPC" to your path where "SPC.py" is.
+sys.path.append('/Python/SPC')         # instead "/Python/SPC" to your path where "SPC.py" is.

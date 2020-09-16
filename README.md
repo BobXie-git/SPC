@@ -14,3 +14,6 @@ but can download the "SPC.py" to your computer, also add two lines in your code 
 import sys
 
 sys.path.append('/Python/SPC')         # instead "/Python/SPC" to your path where "SPC.py" is.
+
+
+For more detail of how to use SPC, pls refer the "Demo.ipynb"

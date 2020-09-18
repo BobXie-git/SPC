@@ -299,11 +299,7 @@ STATS_FUNCS = {
     CHART_P: (get_stats_p, prepare_data_p),
     CHART_NP: (get_stats_np, prepare_data_none),
     CHART_C: (get_stats_c, prepare_data_none),
-    CHART_U: (get_stats_u, prepare_data_u),
-    CHART_EWMA: (None, prepare_data_none),
-    CHART_CUSUM: (None, prepare_data_none),
-    CHART_THREE_WAY: (None, prepare_data_none),
-    CHART_TIME_SERIES: (None, prepare_data_none)}
+    CHART_U: (get_stats_u, prepare_data_u)}
 
 RULES_FUNCS = {
     RULES_1_BEYOND_3SIGMA: (test_beyond_limits, 1),
